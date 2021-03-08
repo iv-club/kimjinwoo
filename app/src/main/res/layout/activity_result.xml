@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ResultActivity"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical"
+                android:background="@drawable/background"
+                android:paddingTop="25dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="오늘의 추천 메뉴는?"
+                    android:fontFamily="@font/ImcreSoojin"
+                    android:textColor="@color/white"
+                    android:textSize="40dp" />
+
+            </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="70sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading.."
+            android:fontFamily="@font/ImcreSoojin"
+            android:textColor="#FA5858"
+            android:textSize="35sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30sp"/>
+
+            <TextView
+                android:layout_width="350sp"
+                android:layout_height="150sp"
+                android:layout_gravity="center"
+                android:text="Loading.."
+                android:fontFamily="@font/ImcreSoojin"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/background_rounding" />
+
+            <TextView
+                android:layout_marginTop="70sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading.."
+                android:fontFamily="@font/ImcreSoojin"
+                android:textColor="#FA5858"
+                android:textSize="35sp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30sp"/>
+
+            <TextView
+                android:layout_width="350sp"
+                android:layout_height="150sp"
+                android:layout_gravity="center"
+                android:text="Loading.."
+                android:fontFamily="@font/ImcreSoojin"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/background_rounding" />
+
+            <TextView
+                android:layout_marginTop="70sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading.."
+                android:fontFamily="@font/ImcreSoojin"
+                android:textColor="#FA5858"
+                android:textSize="35sp"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30sp"/>
+
+            <TextView
+                android:layout_width="350sp"
+                android:layout_height="150sp"
+                android:layout_gravity="center"
+                android:text="Loading.."
+                android:fontFamily="@font/ImcreSoojin"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/background_rounding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:paddingTop="25dp">
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
