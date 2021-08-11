@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:paddingTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Question 3"
+            android:fontFamily="@font/ImcreSoojin"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="좋은 음식은 좋은 대화로 끝이 난다."
+        android:fontFamily="@font/ImcreSoojin"
+        android:textColor="#FA5858"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:text="-조프리 네이어"
+        android:fontFamily="@font/ImcreSoojin"
+        android:textColor="#FA5858"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_q1"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="#FA5858"
+        android:text="음식을 먹을 시간적인 상황은 어떤가요?"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:fontFamily="@font/ImcreSoojin"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounding" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_q12"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="빨리 먹어야 해요."
+        android:fontFamily="@font/ImcreSoojin"
+        android:backgroundTint="#ff9956"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_q13"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="느긋하게 먹어도 돼요."
+        android:fontFamily="@font/ImcreSoojin"
+        android:backgroundTint="#ff9956"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_q14"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="술안주가 필요해요."
+        android:fontFamily="@font/ImcreSoojin"
+        android:backgroundTint="#ff9956"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_q15"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="상관없어요."
+        android:fontFamily="@font/ImcreSoojin"
+        android:backgroundTint="#ff9956"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
