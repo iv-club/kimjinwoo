@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body > div { 
+		color : green;
+		font-size : 30px;
+		border : 2px solid slategray;
+		padding : 30px;
+	}
+	
+	span {
+		color : red;
+	}
+	
+	#myspan {
+		color : blue"
+	}
+	span#myspan {
+		color : blue;
+	}
+	
+	h1, span, div { color : red }
+	
+	#jisu > p:nth-of-type(2) {color : blue}
+	
+</style>
+</head>
+<body>
+
+	<div id="jisu">
+		<h2>단락 선택</h2>
+		<p>첫번째 단락입니다.</p>
+		<p>두번째 단락입니다.</p>
+		<p>세번째 단락입니다.</p>
+		<p>네번째 단락입니다.</p>
+		</div>
+
+	<div>
+		<span id="myspan">my text is upper!</span>
+		<ul>
+			<li><span id="myspan">my text is dummy</span>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+						Maxime accusamus magnam neque repellat magni deleniti eligendi
+						nisi eum id soluta consequatur facere at qui reprehenderit
+						officiis cumque cupiditate nihil excepturi!</p>
+				</div></li>
+			<li></li>
+		</ul>
+	</div>
+
+</body>
+</html>
