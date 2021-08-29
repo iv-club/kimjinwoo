@@ -1,0 +1,29 @@
+레이아웃 = 렌더링 = 엘리먼트를 화면에 배치 모두 같은 의미라고 생각해도 좋습니다.
+블록으로 쌓이는 엘리먼트 (display:block)
+위에서 아래로 쌓이듯이 채워집니다.
+​div와 p태그는 display가 block 속성입니다.
+p태그는 위 아래에 margin값을 기본적으로 갖고 있습니다.
+단, display 속성은 개발자가 원하는 대로 바꿀 수 있습니다.
+span, a, strong 태그는 모두 inline태그입니다.
+strong태그는 글자를 진하게 바꿔줍니다.
+div > * 는 div태그 아래의 모든 태그를 의미합니다.
+
+position
+상대적/절대적으로 어떤 위치에 element를 배치할 수 있습니다.
+1. position:static이면 그냥 순서대로 배치됩니다.
+2. position:absolute이면 기준점에 따라서 top/left/right/bottom만큼 특별한 위치에 배치됩니다.
+기준점을 상위엘리먼트로 단계적을 찾아가는데 static이 아닌 position이 기준점입니다.
+absolute의 경우에 전혀 다른 곳에 위치하기 때문에 top과 left의 값이 0이라도 있는 것이 좋습니다.
+3. relative는 원래 자신이 위치해야 할 곳을 기준으로 top/left/right/bottom이 설정된만큼 이동합니다.
+4. fixed는 흔히 온라인에서 볼 수 있는 광고처럼 화면에 고정되어 움직이게 설정하는 것입니다.
+
+box model
+box model은 border, paddding, margin을 의미합니다.
+margin은 위/아래/좌/우 엘리먼트와 본인간의 간격입니다.
+padding은 border안의 엘리먼트 크기를 의미합니다.
+box-sizing 속성은 content-box일 경우 padding에 따라서 width와 height가 변하는데 border-box인 경우에는 width와 height가 유지됩니다.(단, padding이 너무 커지면 border-box 일지라도 크기가 늘어날 수 있습니다.)
+
+float는 뒤에 block 엘리먼트가 float된 엘리먼트를 의시하지 못하고 중첩되서 배치되므로 좌우 영역으로 구성할 때 많이 쓰입니다.
+float를 넣으면 부모가 인식을 못하기 때문에 부모에 overflow 속성을 주어서 인식할 수 있게합니다.(예시 : overflow : auto)
+또한 float를 넣으면 다른 엘리먼트가 float 엘리먼트를 무시하고 배치되므로 float를 인식시키기 위해서
+다른 엘리먼트에 clear 속성을 넣어줍니다.(예시 : clear : left)
