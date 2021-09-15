@@ -1,0 +1,21 @@
+SQL은 데이터를 보다 쉽게 검색하고 추가, 삭제, 수정 같은 조작을 할 수 있다.
+관계형 데이터베이스에서 데이터를 조작하고 쿼리하는 표준 수단이다.
+DML의 종류
+INSERT, UPDATE, DELETE, SELECT
+
+DDL의 종류
+CREATE, DROP, ALTER
+
+DCL의 종류
+GRANT, REVOKE
+
+Database 생성
+콘설에서 다음 명령어 실행
+mysql -uroot -p
+
+MySQL DBMS에 접속하면
+mysql> 프롬프트가 보인다.
+
+관리자 계정으로 MySQL에 접속했으면, 다음과 같은 명령어로 데이터베이스를 생성한다.
+mysql> create database DB이름;
+
